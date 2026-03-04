@@ -78,6 +78,20 @@ ranked-voting-system
 
 ---
 
+## Algorithm Used
+
+This project implements the Ranked Pairs (Tideman) voting algorithm.
+
+Steps:
+1. Record voter preferences.
+2. Build a pairwise preference matrix.
+3. Create candidate pairs based on victories.
+4. Sort pairs by strength of victory.
+5. Lock pairs while preventing cycles.
+6. The candidate with no incoming edges is the winner.
+   
+---
+
 ## Author
 
 Jaanvi Vohra  
