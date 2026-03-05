@@ -56,27 +56,39 @@ V = number of voters
 Overall complexity → **O(V * C² + C³)**
 
 ## Technologies Used
->C++
->Standard Template Library (STL)
->vector
->unordered_map
->Graph Algorithms
->Depth First Search (DFS)
+
+- C++
+- Standard Template Library (STL)
+- vector
+- unordered_map
+- Graph Algorithms
+- Depth First Search (DFS)
 
 ## How to Run
-> Compile the program
-     g++ ranked_voting_system.cpp -o voting
->Run the program
-     ./voting
->Run using sample input
-      ./voting < sample_input.txt
+
+Compile the program
+```
+g++ ranked_voting_system.cpp -o voting
+```
+Run the program
+```
+./voting   (Linux / Mac)
+voting.exe (Windows)
+```
+Run using sample input
+```
+./voting < sample_input.txt
+```
 
 ## Project Structure
+
+```
 ranked-voting-system
 │
 ├── ranked_voting_system.cpp   # Main program
 ├── sample_input.txt           # Example test input
 └── README.md                  # Project documentation
+```
 
 ## Algorithm Used
 
@@ -92,10 +104,10 @@ Steps
 ## Possible Improvements
 
 Future enhancements that could be added:
-> GUI based voting interface
-> File-based input for large elections
-> Visualization of the voting graph
-> Support for large-scale voting datasets
+- GUI based voting interface
+- File-based input for large elections
+- Visualization of the voting graph
+- Support for large-scale voting datasets
 
 ## Author
 
