@@ -163,13 +163,11 @@ public:
             {
                 if (preferences[i][j] > preferences[j][i])
                 {
-                    pairs.push_back(
-                        {i, j, preferences[i][j] - preferences[j][i]});
+                    pairs.push_back({i, j, preferences[i][j] - preferences[j][i]});
                 }
                 else if (preferences[j][i] > preferences[i][j])
                 {
-                    pairs.push_back(
-                        {j, i, preferences[j][i] - preferences[i][j]});
+                    pairs.push_back({j, i, preferences[j][i] - preferences[i][j]});
                 }
             }
         }
